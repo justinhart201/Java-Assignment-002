@@ -11,7 +11,7 @@ Today we know that ratio to be PI, or **Math.PI** in JAVA, but HOW?
 ![Inscribed Polygons](images/geometry003.png)
 * With this observation, and a little more geometry, we can create an algorithm to calculate the perimeter of larger and larger **inscribed** polygons.
 * Remember, the more sides, (n represents the number of sides in the polygon), the more accurate our perimeter estimation is, so let's do the math...
-![General Equation](images/geometry001.jpg)
+![General Equation](./images/geometry001.jpg)
 * From the image above, you can see the **octagon** is divided into **isosceles triangles**, the bottom of which (labeled **s**) is the length we need to know.
 * If we draw a line from the circle center perpendicular to the base of the triangle **s**, we divide **s** in half, so it becomes ${1 \over 2}s$ as depicted.
 * From the picture, we can simplify our lives by assuming $h = 1$, and that the circle is a **Unit circle**.
